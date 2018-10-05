@@ -3,6 +3,8 @@
 This project serves as a starting point for creating native CLI tools with Clojure
 and GraalVM.
 
+Uses [clj.native-image](https://github.com/taylorwood/clj.native-image) for GraalVM `native-image` integration.
+
 ## Usage
 
 1. Download/unpack the latest release into a directory e.g. `my-script-name`:
