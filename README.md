@@ -3,7 +3,7 @@
 This project serves as a starting point for creating native CLI tools with Clojure
 and GraalVM.
 
-Uses [clj.native-image](https://github.com/taylorwood/clj.native-image) for GraalVM `native-image` integration.
+The template uses Clojure 1.9, clojure.tools.cli for argument parsing, and [clj.native-image](https://github.com/taylorwood/clj.native-image) for GraalVM `native-image` integration.
 
 ## Usage
 
