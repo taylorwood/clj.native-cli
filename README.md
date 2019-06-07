@@ -7,7 +7,9 @@ The template uses Clojure 1.9, clojure.tools.cli for argument parsing, and [clj.
 
 ## Usage
 
-1. Download/unpack the latest release into a directory e.g. `my-script-name`:
+1. Obtain the template:
+   - Use GitHub's [create from template](https://github.com/taylorwood/clj.native-cli/generate) feature, or...
+   - Download/unpack the latest release into a directory e.g. `my-script-name`:
    ```bash
    $ curl -L https://github.com/taylorwood/clj.native-cli/archive/v0.0.1.tar.gz > release.tar.gz \
      && tar -xzf release.tar.gz && rm release.tar.gz \
