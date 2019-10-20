@@ -2,6 +2,7 @@
         org.clojure/tools.cli {:mvn/version "0.4.1"}}
  :aliases {:native-image
            {:main-opts ["-m clj.native-image script"
+                        "--initialize-at-build-time"
                         ;"-H:Name=put_custom_binary_name_here"
                         "--report-unsupported-elements-at-runtime"
                         "-Dclojure.compiler.direct-linking=true"]
